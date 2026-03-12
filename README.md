@@ -1,9 +1,13 @@
 Multivariate Analysis of Compositional Data
 
-A Data Science Case Study Using Synthetic Geochemical Data
+A Data Analysis case study using synthetic geochemical data
 
 This project demonstrates an end‑to‑end multivariate analysis workflow applied to compositional data, using a fully synthetic dataset modeled after real-world geochemical systems.
 It reproduces the analytical pipeline I developed during my PhD research, but no proprietary or embargoed data is used.
+
+Please note that data intrepretation is not included here. For the interpretation of a real-worl geochemical dataset, refer to Chapter 6 - Multivariate Analysis of the thesis:
+
+  Lima Torres, J. L. (2025). Multiple mineralization and fluid flow phases in the Central African Copperbelt – Implications for the age dating of the ore-forming processes.
 
 The PhD thesis can be found at https://lnkd.in/dSdsMdE4
 
@@ -55,5 +59,4 @@ The PhD thesis can be found at https://lnkd.in/dSdsMdE4
 
 --> Project Status
 
-    This project is currently under active development.  
-    New notebooks and modules are being added progressively.
+    This project is currently under active development.
