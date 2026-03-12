@@ -8,6 +8,7 @@ It reproduces the analytical pipeline I developed during my PhD research, but no
 The PhD thesis can be found at https://lnkd.in/dSdsMdE4
 
 - Project Goals
+
     This repository showcases how to:
 
     - Handle censored values and detection limits
@@ -33,6 +34,7 @@ The PhD thesis can be found at https://lnkd.in/dSdsMdE4
     data/           → synthetic raw + processed data  
 
 - Synthetic Dataset
+
     The dataset simulates:
 
     - High-variance element pairs (e.g., SO₄–Ca, Mn–Mg)
@@ -42,13 +44,16 @@ The PhD thesis can be found at https://lnkd.in/dSdsMdE4
     - Log-ratio behavior consistent with compositional constraints
 
 - How to Run
+
     pip install -r requirements.txt
     jupyter lab
 
 - License
+
 MIT License — free to use, modify, and share.
 
 
 --> Project Status
+
 This project is currently under active development.  
 New notebooks and modules are being added progressively.
