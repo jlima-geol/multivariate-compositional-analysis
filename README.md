@@ -50,10 +50,10 @@ The PhD thesis can be found at https://lnkd.in/dSdsMdE4
 
 - License
 
-MIT License — free to use, modify, and share.
+    MIT License — free to use, modify, and share.
 
 
 --> Project Status
 
-This project is currently under active development.  
-New notebooks and modules are being added progressively.
+    This project is currently under active development.  
+    New notebooks and modules are being added progressively.
