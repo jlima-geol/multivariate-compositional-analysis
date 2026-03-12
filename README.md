@@ -27,6 +27,7 @@ The PhD thesis can be found at https://lnkd.in/dSdsMdE4
     - jupyter notebooks
 
 - Repository Structure
+
     notebooks/      → step-by-step analysis  
     src/            → reusable functions  
     data/           → synthetic raw + processed data  
@@ -40,13 +41,9 @@ The PhD thesis can be found at https://lnkd.in/dSdsMdE4
     - PCA structure similar to real geochemical systems
     - Log-ratio behavior consistent with compositional constraints
 
-This allows meaningful interpretation without exposing confidential research data.
-
 - How to Run
     pip install -r requirements.txt
     jupyter lab
-
-Run the notebooks in numerical order.
 
 - License
 MIT License — free to use, modify, and share.
