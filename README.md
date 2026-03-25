@@ -13,50 +13,46 @@ The PhD thesis can be found at https://lnkd.in/dSdsMdE4
 
 ## Project Goals
 
-    This repository showcases how to:
+This repository showcases how to:
 
-    - Handle censored values and detection limits
-    - Apply log-ratio transformations (clr, alr)
-    - Compute and visualize a variation matrix
-    - Perform PCA on compositional data
-    - Identify natural groups using DBSCAN
-    - Test group separation using PERMANOVA
-    - Communicate insights clearly through notebooks and visualizations
+- Handle censored values and detection limits
+- Apply log-ratio transformations (clr, alr)
+- Compute and visualize a variation matrix
+- Perform PCA on compositional data
+- Identify natural groups using DBSCAN
+- Test group separation using PERMANOVA
+- Communicate insights clearly through notebooks and visualizations
 
 ## Tech Stack
-    - Python
-    - pandas, numpy
-    - scikit-learn (PCA, DBSCAN)
-    - scikit-bio (PERMANOVA)
-    - seaborn, matplotlib
-    - jupyter notebooks
+
+- Python
+- pandas, numpy
+- scikit-learn (PCA, DBSCAN)
+- scikit-bio (PERMANOVA)
+- seaborn, matplotlib
+- jupyter notebooks
 
 ## Repository Structure
 
-    notebooks/      → step-by-step analysis  
-    src/            → reusable functions  
-    data/           → synthetic raw + processed data  
+notebooks/      → step-by-step analysis  
+src/            → reusable functions  
+data/           → synthetic raw + processed data  
 
 ## Synthetic Dataset
 
-    The dataset simulates:
+The dataset simulates:
 
-    - High-variance element pairs (e.g., SO₄–Ca, Mn–Mg)
-    - Low-variance pairs (e.g., Br–F, F–Mn)
-    - Two natural clusters detectable by DBSCAN
-    - PCA structure similar to real geochemical systems
-    - Log-ratio behavior consistent with compositional constraints
+- High-variance element pairs (e.g., SO₄–Ca, Mn–Mg)
+- Low-variance pairs (e.g., Br–F, F–Mn)
+- Two natural clusters detectable by DBSCAN
+- PCA structure similar to real geochemical systems
+- Log-ratio behavior consistent with compositional constraints
 
 ## How to Run
 
-    pip install -r requirements.txt
-    jupyter lab
+pip install -r requirements.txt
+jupyter lab
 
 ## License
 
-    MIT License — free to use, modify, and share.
-
-
---> Project Status
-
-    This project is currently under active development.
+MIT License — free to use, modify, and share.

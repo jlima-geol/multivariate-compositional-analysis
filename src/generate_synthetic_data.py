@@ -79,5 +79,9 @@ df_comp[elements] = df_comp[elements].div(df_comp[elements].sum(axis=1), axis=0)
 
 ## 5. Save
 
-df_comp.to_csv("data/raw/synthetic_geochemistry_raw.csv", index=False)
-df_comp.head()
+def main():
+    df_comp.to_csv("data/raw/synthetic_geochemistry_raw.csv", index=False)
+    print("Synthetic dataset saved to data/raw/")
+
+if __name__ == "__main__":
+    main()

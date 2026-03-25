@@ -2,12 +2,12 @@ import numpy as np
 import pandas as pd
 
 def variation_matrix(df):
-    """Compute Aitchison variation matrix."""
+    """Compute Aitchison variation matrix (vectorized)."""
     cols = df.columns
-    V = pd.DataFrame(index=cols, columns=cols, dtype=float)
-
-    for i in cols:
-        for j in cols:
-            V.loc[i, j] = np.var(np.log(df[i] / df[j]))
-
-    return V
+    n = len(cols)
+    V = np.zeros((n, n))
+    arr = df.values
+    for i in range(n):
+        for j in range(n):
+            V[i, j] = np.var(np.log(arr[:, i] / arr[:, j]))
+    return pd.DataFrame(V, index=cols, columns=cols)
