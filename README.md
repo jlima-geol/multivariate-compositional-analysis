@@ -24,14 +24,6 @@ This repository showcases how to:
 - Communicate insights clearly through notebooks and visualizations
 
 ## Tech Stack
-    - Python
-    - pandas, numpy
-    - scikit-learn (PCA, DBSCAN)
-    - scikit-bio (PERMANOVA)
-    - seaborn, matplotlib
-    - jupyter notebooks
-
-## Tech Stack
 
 - Python
 - pandas, numpy
