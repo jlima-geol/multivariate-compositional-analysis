@@ -95,7 +95,7 @@ pandas==3.0.0
 pandocfilters==1.5.1
 parso==0.8.5
 patsy==1.0.2
-pillow==12.1.1
+pillow==12.2.0
 platformdirs @ file:///C:/b/abs_ddh15014or/croot/platformdirs_1744273060660/work
 pluggy @ file:///C:/b/abs_dfec_m79vo/croot/pluggy_1733170145382/work
 prometheus_client==0.24.1
